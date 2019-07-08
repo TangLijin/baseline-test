@@ -3,8 +3,8 @@
 function collectSameElements(collectionA, collectionB) {
     var sameElements = [];
     var k = 0;
-    for(var i = 0; i < collectionA.length-1; i++){
-      for(var j = 0; j < collectionB.length-1; j++){
+    for(var i = 0; i < collectionA.length; i++){
+      for(var j = 0; j < collectionB.length; j++){
           if(collectionA[i] === collectionB[j]){
               sameElements[k] = collectionA[i];
               //sameElements.push(collectionA[i]);
